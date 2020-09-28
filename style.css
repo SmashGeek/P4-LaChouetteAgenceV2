@@ -90,6 +90,11 @@ a:hover {
     right: 0;
 }
 
+.texture-paper::before {
+    background: url("img/texture-paper.webp");
+    background-size: 280px 280px;
+}
+
 .b-parallax {
     background-attachment: fixed;
 }
@@ -396,6 +401,7 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+
 }
 
 .nav > li > .dropdown a {
@@ -701,6 +707,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    text-align: center;
 }
 
 h2 {
@@ -811,6 +818,9 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.webp");
+}
+.bg-lines-h2-bg {
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {

@@ -1437,7 +1437,9 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img-rounded {
@@ -2047,7 +2049,6 @@ pre code {
 .col-sm-3,
 .col-sm-4,
 .col-sm-5,
-.col-sm-6,
 .col-sm-7,
 .col-sm-8,
 .col-sm-9,
@@ -2063,6 +2064,12 @@ pre code {
 .col-xs-7,
 .col-xs-8,
 .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+.col-sm-6 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
