@@ -721,10 +721,6 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
 h4 {
     color: #333333!important;
 }
@@ -772,7 +768,7 @@ h4 {
 }
 
 .tc-white {
-    color:#FFF!important;
+    color:#FFF;
 }
 
 .btn-atomic-tangerine {
@@ -877,7 +873,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    h1,
+
     h2,
     h3,
     h4,
